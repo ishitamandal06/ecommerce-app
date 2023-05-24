@@ -50,6 +50,7 @@ export default ({
                 name: this.name,
                 description: this.description,
                 imageUrl: this.imageUrl,
+              
             }
             const baseUrl = 'https://master--harmonious-bunny-268927.netlify.app/'; 
             axios({

@@ -51,10 +51,10 @@ export default ({
                 description: this.description,
                 imageUrl: this.imageUrl,
             }
-            const baseUrl = 'https://master--harmonious-bunny-268927.netlify.app/'; 
+            const baseUrl = 'https://master--harmonious-bunny-268927.netlify.app'; 
             axios({
                 method: 'post',
-                url: `${baseUrl}admin/create`,
+                url: `${baseUrl}/admin/create`,
                 data: JSON.stringify(newCategory),
                 headers: {
                     'Content-Type': 'application/json'}
